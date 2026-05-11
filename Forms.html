@@ -7,19 +7,46 @@
 </head>
 <body>
     <form action="/action">
-        <input type="text" name="username" placeholder="Username">
+        <div><label for="username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="Username"></div>
         <br>
-        <input type="password" name="password" placeholder="Password ">
+         <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"      placeholder="Email">
+        </div>
         <br>
-        <input type="email" name="email" placeholder="Email">
+        </div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Password ">
+        </div>
         <br>
-        <input type="number" name="age" placeholder="Age">
         <br>
-        <input type="time" name="time" placeholder="Time">
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" placeholder="Age">
+        </div>
         <br>
-        <input type="date" name="date" placeholder="Date">
+        <div>
+            <label for="time">Time:</label>
+            <input type="time" name="time" id="time" placeholder="Time">
+        </div>
         <br>
-        <input type="color" name="" id="">
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" name="date" id="date" placeholder="Date">
+        </div>
+        <br>
+        <div>
+            <label for="color">Color:</label>
+            <input type="color" name="color" id="color" placeholder="Color">
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Button</button>
+        <br>
+        <input type="button" value="click me">
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
