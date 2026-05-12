@@ -4,27 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Basics</title>
-    <style>
-        h1 {
-            color: red;
-        }
-        p {
-            font-size: 18px;
-            color: blue;
-        }
-        button {
-            background-color: green;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- ?Inline styles -->
+     Inline styles are applied directly to an HTML element using the style attribute. They have the highest specificity and will override any other styles defined in external or internal stylesheets. However, they are generally not recommended for large projects as they can make the HTML code messy and harder to maintain.
     <h1 style="color: red;">CSS Basics</h1>
     <p style="font-size: 18px; color: blue;">This is a simple paragraph to demonstrate CSS styling.</p>
     <button style="background-color: green; color: white;">Click Me</button>
-
+    <hr>
+    <br>
     <!-- Style -->
+    Style tags are used to define internal CSS within an HTML document. They are placed within the <head> section and allow you to write CSS rules that apply to the entire document. This method is useful for small projects or when you want to quickly test some styles without creating an external stylesheet.
      <h1>CSS Basics</h1>
     <p>This is a simple paragraph to demonstrate CSS styling.</p>
     <button>Click Me</button>
