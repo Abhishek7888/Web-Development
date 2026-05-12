@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Properties Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            background: #f9f9f9;
+            color: #222;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            margin-top: 2rem;
+            color: #0d47a1;
+        }
+        .example {
+            padding: 16px;
+            margin: 16px 0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #f1f8ff;
+        }
+        .example p {
+            margin: 0.8rem 0;
+        }
+        .align-center {
+            text-align: center;
+        }
+        .align-right {
+            text-align: right;
+        }
+        .lowercase {
+            text-transform: lowercase;
+        }
+        .capitalize {
+            text-transform: capitalize;
+        }
+        .letter-spacing {
+            letter-spacing: 0.2em;
+        }
+        .word-spacing {
+            word-spacing: 0.7em;
+        }
+        .line-height {
+            line-height: 2;
+        }
+        .indent {
+            text-indent: 40px;
+        }
+        .shadow {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+            color: #2e7d32;
+            font-size: 1.2rem;
+        }
+        .highlight {
+            color: #b71c1c;
+            font-weight: bold;
+        }
+        .code-block {
+            background: #272c34;
+            color: #f8f8f2;
+            padding: 12px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-family: Consolas, 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Text Properties Practice</h1>
+        <p>Use this page to practice CSS text properties like alignment, transformation, spacing, indentation, shadow, and line height.</p>
+
+        <h2>Text Alignment</h2>
+        <div class="example align-center">
+            <p>This paragraph is <strong>center aligned</strong> using <code>text-align: center;</code>.</p>
+        </div>
+        <div class="example align-right">
+            <p>This paragraph is <strong>right aligned</strong> using <code>text-align: right;</code>.</p>
+        </div>
+
+        <h2>Text Transform</h2>
+        <div class="example lowercase">
+            <p>This text is in <strong>lowercase</strong> using <code>text-transform: lowercase;</code>.</p>
+        </div>
+        <div class="example capitalize">
+            <p>this sentence uses <strong>capitalize</strong> to turn the first letter of each word into uppercase.</p>
+        </div>
+
+        <h2>Spacing</h2>
+        <div class="example letter-spacing">
+            <p>This text has increased <strong>letter spacing</strong> using <code>letter-spacing: 0.2em;</code>.</p>
+        </div>
+        <div class="example word-spacing">
+            <p>This text has increased <strong>word spacing</strong> using <code>word-spacing: 0.7em;</code>.</p>
+        </div>
+
+        <h2>Line Height</h2>
+        <div class="example line-height">
+            <p>This paragraph uses <code>line-height: 2;</code> to create extra vertical space between lines. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula nec purus ut mollis.</p>
+        </div>
+
+        <h2>Text Indent</h2>
+        <div class="example indent">
+            <p>This paragraph begins with a larger first-line indent using <code>text-indent: 40px;</code>. It is useful for making the start of paragraphs visually distinct.</p>
+        </div>
+
+        <h2>Text Shadow and Color</h2>
+        <div class="example shadow">
+            <p class="shadow">Text shadow adds depth and style to text using <code>text-shadow</code>.</p>
+            <p class="highlight">This text also demonstrates color and font-weight styling.</p>
+        </div>
+
+        <h2>Try modifying these rules</h2>
+        <div class="code-block">
+            p {<br>
+            &nbsp;&nbsp;font-size: 18px;<br>
+            &nbsp;&nbsp;color: #333;<br>
+            &nbsp;&nbsp;text-align: justify;<br>
+            &nbsp;&nbsp;text-transform: uppercase;<br>
+            &nbsp;&nbsp;letter-spacing: 0.05em;<br>
+            &nbsp;&nbsp;word-spacing: 0.4em;<br>
+            &nbsp;&nbsp;line-height: 1.8;<br>
+            &nbsp;&nbsp;text-indent: 30px;<br>
+            &nbsp;&nbsp;text-shadow: 1px 1px 2px rgba(0,0,0,0.2);<br>
+            }
+        </div>
+    </div>
+</body>
+</html>

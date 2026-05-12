@@ -1,0 +1,15 @@
+h2{
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+}
+button {
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+}
+p {
+    background-color: lightblue;
+    font-size: 16px;
+    color: black;
+}
